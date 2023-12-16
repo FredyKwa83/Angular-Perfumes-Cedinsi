@@ -1,0 +1,72 @@
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 85vw;
+}
+
+.footer-titulo{
+    font-weight: bold;
+}
+
+footer img {
+    max-width: 28%;
+}
+
+.footer-descripcion{
+    font-size: 3.5vw;
+    text-align: justify;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Enlace volver arriba 360px - 480px*/
+
+
+.div-volver .volver {
+    text-align: center;
+    font-size: 3.4vw;
+    color:#000000;
+    position: relative;
+    top:2vw;
+    
+ }
+ 
+ .div-volver{
+     
+     background-color: #ffee00;
+     height: 8vw;
+     width: 25vw;
+     position: relative;
+     left: 32vw;
+     top:0.5vw;
+     font-weight: 600;
+     border-radius: 5px;
+     
+ }
+
+ @media (min-width: 481px) {
+
+    .footer-titulo{
+        font-size: 4vw;
+    }
+ }

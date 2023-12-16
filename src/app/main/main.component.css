@@ -1,0 +1,90 @@
+/* Estilos de las cajas de productos (utilizando Bootstrap) */
+.productos {
+    display: grid;
+    grid-template-columns: 1fr; /* Por defecto, 1 columna para pantallas pequeñas */
+    gap: 20px;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+  }
+  
+  .producto {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .producto h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .producto p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+
+  @media (min-width: 481px) {
+   /* Estilos del contenido principal */
+   main {
+    padding: 20px;
+}
+
+.productos {
+    grid-template-columns: repeat(2, 1fr); /* 3 columnas para tablets */
+    margin-top: -4vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+ }
+}
+
+@media (min-width: 768px) {
+       
+     /* Estilos del contenido principal */
+     main {
+         padding: 20px;
+     }
+     
+     /* Estilos de las cajas de productos (utilizando Bootstrap) */
+     .productos {
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas para tablets */
+        /* grid-template-columns: repeat(3, 200px);  */
+        margin-top: -3vw;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        margin-bottom: 3vw;
+    }
+    .linea-roja {
+        position: relative;
+      }
+      
+      .linea-roja::before {
+        content: '';
+        position: absolute;
+        top: 50%; /* Ubica la línea en la mitad vertical del texto */
+        width: 31%;
+        height: 1px; /* Ancho y grosor de la línea */
+        background: red; /* Color de la línea */
+      }
+    }
+
+    @media (min-width: 1024px) {
+        .productos {
+            grid-template-columns: repeat(4, 1fr); /* 3 columnas para tablets */
+            margin-top: -2vw;
+            margin-left: 8vw;
+            margin-right: 8vw;
+        }
+    }

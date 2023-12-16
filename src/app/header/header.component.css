@@ -1,0 +1,114 @@
+
+header {
+    background-color: #f1fe63; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    padding: 10px; /* Espaciado interno en el encabezado */
+    height: 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-1{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+/* Estilos para el logo */
+.logo {
+    width: 40%; 
+    position: relative;
+    /* bottom:1vw; */
+    left:1.5vw; 
+}
+
+/* Estilos para el formulario de búsqueda */
+.input-buscar{
+    width: 50vw;
+    height: 5vw;
+    position: relative;
+    right: 16vw;
+    top:2.5vw;
+    font-size: 2.5vw;
+    
+}
+
+.buscar-boton .boton-buscar {
+    background-color: #202020; /* Color de fondo del botón de búsqueda */
+    color: #fff; /* Color del texto del botón de búsqueda */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 12vw;
+    height: 7.20vw;
+    font-size:2.5vw ;
+    position: relative;
+    left: 34vw;
+    bottom: 5vw;
+}
+
+.buscar-boton .input-buscar{
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 7vw;
+    
+}
+
+@media (min-width: 481px) {
+    header {
+        background-color: #f1fe63; /* Color de fondo del encabezado */
+        color: #fff; /* Color del texto en el encabezado */
+        padding: 10px; /* Espaciado interno en el encabezado */
+        height: 15vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contenedor-1{
+        display: flex;
+        justify-content:center;
+        width: 100%;
+    }
+    
+    /* Estilos para el logo */
+    .logo {
+        width: 40%; 
+        position: relative;
+        /* bottom:1vw; */
+        left:1.5vw; 
+    }
+    
+    /* Estilos para el formulario de búsqueda */
+    .input-buscar{
+        width: 50vw;
+        height: 2vw;
+        position: relative;
+        right: 16vw;
+        top:2.5vw;
+        font-size: 2.5vw;
+        
+    }
+    
+    .buscar-boton .boton-buscar {
+        background-color: #202020; /* Color de fondo del botón de búsqueda */
+        color: #fff; /* Color del texto del botón de búsqueda */
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        width: 12vw;
+        height: 6.3vw;
+        font-size:2.5vw ;
+        position: relative;
+        left: 34vw;
+        bottom: 4vw;
+    }
+    
+    .buscar-boton .input-buscar{
+        
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: 6vw;
+    }
+}
+
